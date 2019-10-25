@@ -1,0 +1,77 @@
+object ViewPrincipal: TViewPrincipal
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = None
+  Caption = 'View Principal'
+  ClientHeight = 600
+  ClientWidth = 800
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object LayoutSuperior: TLayout
+    Align = Top
+    Size.Width = 800.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutSuperiorCentral: TLayout
+      Align = Client
+      Size.Width = 359.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object LayoutSuperiorEsquerdo: TLayout
+      Align = Left
+      Size.Width = 169.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+    end
+    object LayoutSuperiorDireito: TLayout
+      Align = Right
+      Position.X = 528.000000000000000000
+      Size.Width = 272.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object LayoutMenuPrincipal: TLayout
+    Align = Left
+    Position.Y = 50.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 550.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object LayoutPrincipal: TLayout
+    Align = Client
+    Size.Width = 631.000000000000000000
+    Size.Height = 550.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object LayoutInferior: TLayout
+      Align = Bottom
+      Position.Y = 500.000000000000000000
+      Size.Width = 631.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+    object LayoutCentral: TLayout
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 601.000000000000000000
+      Size.Height = 473.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

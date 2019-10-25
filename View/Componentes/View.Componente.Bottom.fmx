@@ -1,0 +1,62 @@
+object ComponenteBottom: TComponenteBottom
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 49
+  ClientWidth = 538
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Bottom
+    Position.Y = -1.000000000000000000
+    Size.Width = 538.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = claSlategray
+      Size.Width = 538.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.200000002980232200
+      ShadowColor = claBlack
+    end
+    object Label1: TLabel
+      Align = Right
+      StyledSettings = [Style]
+      Margins.Left = 30.000000000000000000
+      Position.X = 304.000000000000000000
+      Size.Width = 82.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Powered By '
+      TabOrder = 2
+    end
+    object Label2: TLabel
+      Align = Right
+      StyledSettings = [Style]
+      Margins.Left = 30.000000000000000000
+      Position.X = 416.000000000000000000
+      Size.Width = 122.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claAntiquewhite
+      Text = 'Zoe Tecnologia'
+      TabOrder = 1
+    end
+  end
+end
